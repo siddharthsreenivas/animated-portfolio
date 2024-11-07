@@ -34,7 +34,14 @@
   color: #fff;
 }
 html,body{
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  background: #000;
+  background: #111;
+}
+#page1-in{
+  perspective: 1000px;
+}
+#tiltDiv{
+  /* background-color: red; */
+  width: fit-content;
 }
